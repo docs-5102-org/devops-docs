@@ -1,0 +1,123 @@
+import { sidebar } from "vuepress-theme-hope";
+
+export default sidebar({
+  "/": [
+    "intro",
+  ],
+  //# Linux 专用侧边栏
+  "/linux/": [
+    "",
+    {
+      text: "基础知识",
+      icon: "book",
+      prefix: "基础知识/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "文件及目录管理",
+      icon: "folder",
+      prefix: "文件及目录管理/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "文本处理",
+      icon: "file-lines",
+      prefix: "文本处理/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "磁盘管理",
+      icon: "hard-drive",
+      prefix: "磁盘管理/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "进程管理工具",
+      icon: "microchip",
+      prefix: "进程管理工具/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "系统管理与监控",
+      icon: "chart-line",
+      prefix: "系统管理与监控/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "网络工具",
+      icon: "network-wired",
+      prefix: "网络工具/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "用户管理工具",
+      icon: "users",
+      prefix: "用户管理工具/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "服务器配置",
+      icon: "chart-line",
+      prefix: "服务器配置/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "Shell编程",
+      icon: "terminal",
+      prefix: "Shell编程/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "软件安装与包管理",
+      icon: "box-open",
+      prefix: "软件安装与包管理/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "文件权限管理​",
+      icon: "lock",
+      prefix: "文件权限管理​/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "自动化与计划任务",
+      icon: "clock",
+      prefix: "自动化与计划任务/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "问题排查",
+      icon: "bug",
+      prefix: "问题排查/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "常用脚本",
+      icon: "pen-to-square",
+      prefix: "常用脚本/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "其他资源",
+      icon: "link",
+      prefix: "其他资源/",
+      collapsible: true,
+      children: "structure",
+    },
+  ],
+});

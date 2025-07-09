@@ -1,0 +1,26 @@
+// place your custom styles here
+
+
+// 修改左侧菜单的间隙
+.vp-sidebar-link {
+    padding: 0.25rem 0.9rem !important;
+}
+
+// 修改搜索按钮的样式--start
+@media (max-width: 959px) {
+    .slimsearch-button {
+        /* border-radius: 50%; */
+    }
+}
+.slimsearch-button{
+    width: 150px;
+}
+@media (max-width: 930px) {
+    .slimsearch-button {
+        width: auto;
+    }
+}
+.slimsearch-key-hints{
+    margin-left: 20px;
+}
+// 修改搜索按钮的样式--end
