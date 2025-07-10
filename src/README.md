@@ -3,10 +3,10 @@ home: true
 layout: Blog
 icon: house
 title: 主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+heroImage: /assets/logo.png
+bgImage: /assets/images/cover4.jpg
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+
 projects:
   - icon: link
     name: Linux
@@ -18,7 +18,7 @@ projects:
     desc: 容器相关教程
     link: https://tuonioooo-notebook.gitbook.io/docker
 
-footer: 程序猿的游戏开源工具密圈
+footer: 公众号：程序猿的游戏开源工具密圈
 
 ---
 

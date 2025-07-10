@@ -14,7 +14,6 @@ export default hopeTheme({
   // logo: "https://mmbiz.qpic.cn/mmbiz_jpg/bu5aWs1MtkgwpX9gGWibqMV5nYl2CH9iaFKFmwmwluWkLSdkBKia6b47Ao20tIjgmiagxYhO4H5WZgcqXpgwVEFQBA/640?wx_fmt=jpeg",
 
   logo: "/logo.png",
-  
   repo: "",
   repoDisplay: false, // 是否展示仓库链接
 
