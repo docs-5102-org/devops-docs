@@ -4,7 +4,8 @@ import theme from "./theme.js";
 
 
 export default defineUserConfig({
-  base: "/",
+  base: '/devops-docs/', // 兼容 GitHub Pages 的路径
+  // base: '/', // 如果不使用 GitHub Pages，可以将 base 设置为根路径
 
   lang: "zh-CN",
   title: "tuonioooo's DevOps Docs",
