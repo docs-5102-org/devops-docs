@@ -13,6 +13,15 @@ export default navbar([
       { text: 'Github Docker', link: 'https://github.com/tuonioooo/docker' },
     ],
   },
+  {
+    text: '脚本',
+    icon: 'fa6-solid:code',
+    children: [
+      { text: 'bat', link: '/script/bat/bat-starter' },
+      { text: 'lua', link: '/script/lua/lua-starter' },
+      { text: '油猴', link: '/script/tampermonkey/tampermonkey-starter' },
+    ],
+  },
   // "/demo/",
   // {
   //   text: "博文",

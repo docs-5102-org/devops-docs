@@ -120,4 +120,34 @@ export default sidebar({
       children: "structure",
     },
   ],
+  "/script/": [
+    {
+      text: "bat",
+      icon: "file-code",
+      prefix: "bat/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "lua",
+      icon: "file-code",
+      prefix: "lua/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "油猴",
+      icon: "file-code",
+      prefix: "tampermonkey/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "其他",
+      icon: "file-code",
+      prefix: "other/",
+      collapsible: true,
+      children: "structure",
+    },
+  ]
 });
