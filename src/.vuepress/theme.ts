@@ -22,21 +22,21 @@ export default hopeTheme({
   // 导航栏
   navbar,
   // 导航栏布局
-  navbarLayout: {
-      start: [
-        "Brand",    // Logo也放右侧
-        
-      ], // 左侧留空
-      center: [
-      ], // 中间留空
-      end: [
-        "Links",    // 导航链接
-        "Language", // 语言切换
-        "Repo",     // 仓库链接
-        "Outlook",  // 外观切换
-        "Search"    // 搜索
-      ]
-    },
+  // navbarLayout: {
+  //   start: [
+  //     "Brand",    // Logo也放右侧
+      
+  //   ], // 左侧留空
+  //   center: [
+  //   ], // 中间留空
+  //   end: [
+  //     "Links",    // 导航链接
+  //     "Language", // 语言切换
+  //     "Repo",     // 仓库链接
+  //     "Outlook",  // 外观切换
+  //     "Search"    // 搜索
+  //   ]
+  // },
   // 侧边栏
   sidebar,
   // 全局禁用 "编辑此页" 链接
