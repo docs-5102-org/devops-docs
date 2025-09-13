@@ -24,7 +24,7 @@ export default navbar([
   {
     text: '📘 专项文档',
     children: [
-      { text: '💻 服务端语言', link: 'https://coding.dzspace.top/' },
+      { text: '💻 服务端技术栈', link: 'https://coding.dzspace.top/' },
       {
         text: '📜 AI智能化文档',
         link: 'https://notion.dzspace.top',

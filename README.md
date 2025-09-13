@@ -16,7 +16,7 @@
 - [脚本中心](/script/bat/bat-starter) — bat、lua、油猴等常用脚本
 
 ### 专项文档
-- [服务端语言](https://coding.dzspace.top/) — 服务端语言
+- [服务端技术栈](https://coding.dzspace.top/) — 服务端语言
 - [AI智能化文档](https://notion.dzspace.top) — 智能化工具与应用
 
 ## 关注我们
