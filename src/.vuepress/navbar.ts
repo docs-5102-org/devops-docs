@@ -29,6 +29,10 @@ export default navbar([
         text: '📜 AI智能化文档',
         link: 'https://notion.dzspace.top',
       },
+      {
+        text: '🌐 Web和移动开发技术栈',
+        link: 'https://web.dzspace.top',
+      },
     ]
   }
 ]);
