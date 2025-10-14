@@ -1,5 +1,5 @@
 ﻿---
-title: maven安装-构建工具配置指南
+title: maven安装
 category:
   - Linux
   - 软件安装与包管理
@@ -11,7 +11,7 @@ date: 2022-09-20
 
 ---
 
-# maven安装教程
+# maven安装
 
 ## Windows、Mac安装maven
 

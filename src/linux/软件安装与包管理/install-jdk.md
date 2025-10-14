@@ -1,5 +1,5 @@
 ﻿---
-title: jdk安装-Java环境配置指南
+title: java安装
 category:
   - Linux
   - 软件安装与包管理
