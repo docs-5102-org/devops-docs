@@ -304,7 +304,7 @@ kill -0 1234 && echo "进程存在" || echo "进程不存在"
 
 ## 常用脚本
 
-- [杀死Tomcat进程的脚本](../_resources/Linux_杀死Tomcat进程的脚本.resources/mykill.sh)
+- <a :href="$withBase('./assets/_resources/Linux_杀死Tomcat进程的脚本.resources/mykill.sh')">杀死Tomcat进程的脚本</a>
 
 
 ## 总结

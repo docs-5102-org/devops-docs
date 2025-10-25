@@ -183,7 +183,7 @@ telnet www.google.com 80
 telnet 110.101.101.101 80
 ```
 
-[成功反馈](../_resources/Linux_telnet_netstat_检测远程端口是否打开.resources/unknown_filename.png)
+![成功反馈](./assets/_resources/Linux_telnet_netstat_检测远程端口是否打开.resources/unknown_filename.png)
 
 
 ### 2. 高级使用示例

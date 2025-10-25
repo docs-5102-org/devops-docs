@@ -19,7 +19,7 @@ date: 2022-09-21
 
 [Mysql8离线安装](https://www.cnblogs.com/quchunhui/p/11115339.html)
 
-[Mysql安装与配置.pdf](../_resources/Linux_MySQL的安装与配置.resources/第九章MySQL的安装与配置.pdf)
+<a :href="$withBase('./assets/_resources/Linux_MySQL的安装与配置.resources/第九章MySQL的安装与配置.pdf')">Mysql安装与配置.pdf</a>
 
 软件安装目录 `/usr/local/`
 
@@ -89,6 +89,6 @@ cat /etc/my.cnf
 
 ### 配置文件
 
-[示例文件](../_resources/mysql/my.cnf)
-[默认配置文件](../_resources/mysql/default/my.cnf)
+<a :href="$withBase('./assets/_resources/mysql/my.cnf')">示例文件</a>
+<a :href="$withBase('./assets/_resources/mysql/default/my.cnf')">默认配置文件</a>
 

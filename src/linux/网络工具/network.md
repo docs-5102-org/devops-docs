@@ -240,7 +240,7 @@ su - root
 
 ## 参考
 
-[网络配置](../_resources/Linux_网络配置.resources/第一章网络配置.pdf)
+<a :href="$withBase('./assets/_resources/Linux_网络配置.resources/第一章网络配置.pdf')">网络配置</a>
 
 ## 总结
 

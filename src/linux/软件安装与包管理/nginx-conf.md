@@ -383,7 +383,7 @@ location ~* \.(jpg|jpeg|png|gif)$ {
 
 ### 多实例例配置文件
 
-[](../_resources/vhost.resources/nginx.conf)
+<a :href="$withBase('./assets/_resources/vhost.resources/nginx.conf')">nginx配置文件</a>
 
 ## 性能优化建议
 

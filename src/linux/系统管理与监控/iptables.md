@@ -73,7 +73,7 @@ vi /etc/sysconfig/iptables
 
 ```
 
-[](../_resources/centos6_防火墙操作命令.resources/unknown_filename.jpeg)
+![](./assets/_resources/centos6_防火墙操作命令.resources/unknown_filename.jpeg)
 
 ## 各系统安装与兼容性对比
 

@@ -41,7 +41,7 @@ git version 1.8.3.1
 https://git-scm.com/download ->
 https://git-scm.com/download/linux ->
 
-![./git_01.png](../_resources/git/git_01.png)
+![./git_01.png](./assets/_resources/git/git_01.png)
 
 > 源码安装说明：  
 > 目前最新的源码包: https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.38.1.tar.gz    

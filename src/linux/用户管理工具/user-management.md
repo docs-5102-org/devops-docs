@@ -428,4 +428,4 @@ chown -R username:groupname directory
 - [Linux man pages: useradd(8)](https://linux.die.net/man/8/useradd)
 - [Linux man pages: usermod(8)](https://linux.die.net/man/8/usermod)
 - [Linux man pages: userdel(8)](https://linux.die.net/man/8/userdel) 
-- [用户管理ppt](../_resources/Linux_用户管理.resources/Linux用户管理.ppt)
+- <a :href="$withBase('./assets/_resources/Linux_用户管理.resources/Linux用户管理.ppt')">用户管理ppt</a>

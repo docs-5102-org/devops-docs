@@ -11,7 +11,7 @@ date: 2022-07-19
 
 
 ## 参考资料
-- [基础知识点](../_resources/Linux_知识点.resources/linux课程知识点大纲及学习顺序.docx)
+- <a :href="$withBase('./assets/_resources/Linux_知识点.resources/linux课程知识点大纲及学习顺序.docx')">基础知识点</a>
 - [Linux命令大全(手册)](https://www.linuxcool.com/)
 - [Linux工具快速教程](https://linuxtools-rst.readthedocs.io/zh-cn/latest/)
 - [鸟哥私房菜](https://linux.vbird.org/)
