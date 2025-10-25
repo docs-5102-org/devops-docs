@@ -42,7 +42,7 @@ dos2unix filename.txt
 
 ## checking for C compiler ... not found
 
-[](./assets/_resources/configure_error_C_compiler_cc_is_not_found.resources/unknown_filename.png)
+<img src="/assets/_resources/configure_error_C_compiler_cc_is_not_found.resources/unknown_filename.png" style="width: 400px;"></img>
 
 这个错误表示系统缺少C编译器。以下是针对不同Linux发行版的优化安装命令：
 
@@ -291,7 +291,7 @@ apt list --upgradable | grep <packagename>
 
 原因：firewalld服务被锁定，不能添加对应端口
 
-![](./assets/_resources/执行_systemctl_start_firewalld_命令后出现Failed_to_start_firewalld.service_Unit_is_masked.resources/unknown_filename.png)
+<img src="/assets/_resources/执行_systemctl_start_firewalld_命令后出现Failed_to_start_firewalld.service_Unit_is_masked.resources/unknown_filename.png" style="width: 400px;"></img>
 
 ### 解决方法
 

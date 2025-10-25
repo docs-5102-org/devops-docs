@@ -12,7 +12,7 @@
 
 ## 资源文件放到 `.vuepress/public/assets` 目录下
 
-* 图片是可以直接通过 ![](./assets/xxx.png) 来引入
+* 图片是可以直接通过 <img src="/assets/images/friend-link/wxmp.png" style="width: 400px;"></img> 引入
 * 文件需要通过 <a :href="$withBase('./assets/_resources/Linux_Shell基础.resources/Linux_Shell_1.pdf')">下载 PDF</a> 这种方式来动态引入
 
 ## 修改样式

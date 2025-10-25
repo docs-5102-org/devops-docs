@@ -32,7 +32,7 @@ date: 2022-09-19
 [https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html#license-lightbox](https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html#license-lightbox)
 
 
-![](./assets/_resources/jdk/38fc9fbe075a3086638b28b7cadd0d6e.png)
+<img src="/assets/_resources/jdk/38fc9fbe075a3086638b28b7cadd0d6e.png" style="width: 400px;"></img>
 
 下载后，上传到服务器上  PS: 现在下载JDk需要登录，链接下载会有问题
 
