@@ -10,6 +10,11 @@
 <iframe src="/html/log.html" width="100%" height="800"></iframe>
 ```
 
+## 资源文件放到 `.vuepress/public/assets` 目录下
+
+* 图片是可以直接通过 ![](./assets/xxx.png) 来引入
+* 文件需要通过 <a :href="$withBase('./assets/_resources/Linux_Shell基础.resources/Linux_Shell_1.pdf')">下载 PDF</a> 这种方式来动态引入
+
 ## 修改样式
 
 * `src/.vuepress/styles/config.scss` [修改主题色]
