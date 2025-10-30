@@ -79,6 +79,74 @@ Retype new password:       # 再次确认密码
 passwd: password updated successfully
 ```
 
+### 1.3 完整的使用示例
+
+**添加用户和组**
+
+```bash
+# 添加用户
+$ adduser daizhao
+
+info: Adding user `daizhao' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `daizhao' (1001) ...
+info: Adding new user `daizhao' (1001) with group `daizhao (1001)' ...
+info: Creating home directory `/home/daizhao' ...
+info: Copying files from `/etc/skel' ...
+New password:
+Retype new password:
+passwd: password updated successfully
+Changing the user information for daizhao
+Enter the new value, or press ENTER for the default
+        Full Name []:
+        Room Number []: 1001
+        Work Phone []: 15210895103
+        Home Phone []:
+        Other []:
+Is the information correct? [Y/n]
+info: Adding new user `daizhao' to supplemental / extra groups `users' ...
+info: Adding user `daizhao' to group `users' ...
+
+# 查看所在组
+$ id daizhao
+uid=1001(daizhao) gid=1001(daizhao) groups=1001(daizhao),100(users)
+
+# 添加用户到sudo附加组（获得管理员权限）
+$ usermod -aG sudo daizhao
+# 添加用户到docker附加组（使用 Docker）
+$ usermod -aG docker daizhao
+# 验证
+$ id daizhao
+uid=1001(daizhao) gid=1001(daizhao) groups=1001(daizhao),27(sudo),100(users)
+```
+
+**修改用户名和组**
+
+```bash
+# 1. 确保要修改的用户已登出（重要！）
+# 如果该用户正在登录，必须先退出或强制踢出
+
+# 2. 切换到 root 用户
+sudo su -
+
+# 3. 杀掉该用户的所有进程（如果用户在线）
+pkill -u oldusername
+
+# 4. 修改用户名
+usermod -l newusername oldusername
+
+# 5. 修改用户的家目录名称（可选但推荐）
+usermod -d /home/newusername -m newusername
+
+# 6. 修改用户的主组名（如果需要）
+groupmod -n newusername oldusername
+
+# 7. 验证修改
+id newusername
+```
+
+
+
 ## 二、sudo 权限配置
 
 ### 2.1 准备工作
