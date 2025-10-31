@@ -92,9 +92,9 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "自动化与计划任务",
+      text: "持续集成与计划任务",
       icon: "clock",
-      prefix: "自动化与计划任务/",
+      prefix: "持续集成与计划任务/",
       collapsible: true,
       children: "structure",
     },
