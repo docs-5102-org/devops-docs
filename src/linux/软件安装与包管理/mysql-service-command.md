@@ -4,7 +4,7 @@ category:
   - Linux
   - 软件安装与包管理
 tag:
-  - mysql
+  - MySql
   - 启动命令大全
 date: 2022-09-21
 
