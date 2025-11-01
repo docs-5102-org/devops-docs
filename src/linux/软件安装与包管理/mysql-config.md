@@ -1,10 +1,10 @@
 ---
-title: MySql 配置远程连接
+title: MySQL 配置远程连接
 category:
   - Linux
   - 软件安装与包管理
 tag:
-  - MySql
+  - MySQL
   - 远程链接
 date: 2022-09-21
 

@@ -1,15 +1,15 @@
 ---
-title: MySQL 数据库备份与导入完全指南
+title: MySQL 数据库备份与导入指南
 category:
   - Linux
   - 软件安装与包管理
 tag:
-  - MySql
+  - MySQL
   - 数据库备份和导入
 date: 2022-09-21
 ---
 
-# MySql 数据库备份与导入完全指南
+# MySQL 数据库备份与导入指南
 
 > 📅 最后更新：2025-11-01  
 > 📝 涵盖 Linux、Windows 和 Docker 环境的完整操作指南

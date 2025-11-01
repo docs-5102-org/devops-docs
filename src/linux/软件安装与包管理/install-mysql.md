@@ -1,16 +1,16 @@
 ﻿---
-title: MySql 安装
+title: MySQL 安装
 category:
   - Linux
   - 软件安装与包管理
 tag:
-  - MySql
+  - MySQL
   - 服务配置
 date: 2022-09-21
 
 ---
 
-# MySql 安装
+# MySQL 安装
 
 ## 安装教程
 
