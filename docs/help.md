@@ -10,10 +10,19 @@
 <iframe src="/html/log.html" width="100%" height="800"></iframe>
 ```
 
-## 资源文件放到 `.vuepress/public/assets` 目录下
+## 插入图片
 
-* 图片是可以直接通过 <img src="/assets/images/friend-link/wxmp.png" style="width: 400px;"></img> 引入
-* 文件需要通过 <a :href="$withBase('./assets/_resources/Linux_Shell基础.resources/Linux_Shell_1.pdf')">下载 PDF</a> 这种方式来动态引入
+1. 添加图片 在`src\.vuepress\public\assets` 
+
+2. 在md文档中输入如下内容:
+<img :src="$withBase('/assets/images/high-concurrency-design-1.png')" 
+  alt=""
+  width="800px" 
+  height="auto">
+
+## 文件下载
+
+文件需要通过 <a :href="$withBase('./xxx/xxx.pdf')">下载 PDF</a> 这种方式来动态引入
 
 ## 修改样式
 
